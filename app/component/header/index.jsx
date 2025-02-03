@@ -627,85 +627,85 @@ const Header = () => {
                               </div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-inner-zoom.html"
+                                  <Link
+                                    href="/products/productdetails/innerzoom"
                                     className="menu-link-text link"
                                   >
                                     Product inner zoom
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-zoom-magnifier.html"
+                                  <Link
+                                    href="/products/productdetails/zoommagnifier"
                                     className="menu-link-text link"
                                   >
                                     Product zoom magnifier
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-no-zoom.html"
+                                  <Link
+                                    href="/products/productdetails/nozoom"
                                     className="menu-link-text link"
                                   >
                                     Product no zoom
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-photoswipe-popup.html"
+                                  <Link
+                                    href="/products/productdetails/photoswipepopup"
                                     className="menu-link-text link"
                                   >
                                     Product photoswipe popup
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-zoom-popup.html"
+                                  <Link
+                                    href="/products/productdetails/externalzoom"
                                     className="menu-link-text link"
                                   >
                                     Product external zoom and photoswipe popup
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-video.html"
+                                  <Link
+                                    href="/products/productdetails/video"
                                     className="menu-link-text link"
                                   >
                                     Product video
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-3d.html"
+                                  <Link
+                                    href="/products/productdetails/3darmodal"
                                     className="menu-link-text link"
                                   >
                                     Product 3D, AR models
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-options-customizer.html"
+                                  <Link
+                                    href="/products/productdetails/optionandcustomizer"
                                     className="menu-link-text link"
                                   >
                                     Product options &amp; customizer
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-advanced-types.html"
+                                  <Link
+                                    href="/products/productdetails/producttypes"
                                     className="menu-link-text link"
                                   >
                                     Advanced product types
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-giftcard.html"
+                                  <Link
+                                    href="/products/productdetails/recipientinformationform"
                                     className="menu-link-text link"
                                   >
                                     Recipient information form for gift card
                                     products
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -717,60 +717,60 @@ const Header = () => {
                               </div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-color-swatch.html"
+                                  <Link
+                                    href="/products/productswatchs/colorswatch"
                                     className="menu-link-text link"
                                   >
                                     Product color swatch
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-rectangle.html"
+                                  <Link
+                                    href="/products/productswatchs/rectangle"
                                     className="menu-link-text link"
                                   >
                                     Product rectangle
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-rectangle-color.html"
+                                  <Link
+                                    href="/products/productswatchs/rectanglecolor"
                                     className="menu-link-text link"
                                   >
                                     Product rectangle color
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-image.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchimage"
                                     className="menu-link-text link"
                                   >
                                     Product swatch image
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-image-rounded.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchimagerounded"
                                     className="menu-link-text link"
                                   >
                                     Product swatch image rounded
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-dropdown.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchdropdown"
                                     className="menu-link-text link"
                                   >
                                     Product swatch dropdown
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-dropdown-color.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchdropdowncolor"
                                     className="menu-link-text link"
                                   >
                                     Product swatch dropdown color
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
