@@ -782,112 +782,112 @@ const Header = () => {
                               </div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-frequently-bought-together.html"
+                                  <Link
+                                    href="/products/productfeatures/frequentlyboughttogether"
                                     className="menu-link-text link"
                                   >
                                     Frequently bought together
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-frequently-bought-together-2.html"
+                                  <Link
+                                    href="/products/productfeatures/frequentlyboughttogether2"
                                     className="menu-link-text link"
                                   >
                                     Frequently bought together 2
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-upsell-features.html"
+                                  <Link
+                                    href="/products/productfeatures/upsellfeatures"
                                     className="menu-link-text link"
                                   >
                                     Product upsell features
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-pre-orders.html"
+                                  <Link
+                                    href="/products/productfeatures/preorders"
                                     className="menu-link-text link"
                                   >
                                     Product pre-orders
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-notification.html"
+                                  <Link
+                                    href="/products/productfeatures/backinstock"
                                     className="menu-link-text link"
                                   >
                                     Back in stock notification
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-pickup.html"
+                                  <Link
+                                    href="/products/productfeatures/productpickup"
                                     className="menu-link-text link"
                                   >
                                     Product pickup
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-images-grouped.html"
+                                  <Link
+                                    href="/products/productfeatures/variantimages"
                                     className="menu-link-text link"
                                   >
                                     Variant images grouped
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-complimentary.html"
+                                  <Link
+                                    href="/products/productfeatures/complimentaryproducts"
                                     className="menu-link-text link"
                                   >
                                     Complimentary products
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-quick-order-list.html"
+                                  <Link
+                                    href="/products/productfeatures/quickorderlist"
                                     className="menu-link-text link position-relative"
                                   >
                                     Quick order list
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-detail-volume-discount.html"
+                                  <Link
+                                    href="/products/productfeatures/volumediscount"
                                     className="menu-link-text link position-relative"
                                   >
                                     Volume Discount
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-detail-volume-discount-grid.html"
+                                  <Link
+                                    href="/products/productfeatures/volumediscountgrid"
                                     className="menu-link-text link position-relative"
                                   >
                                     Volume Discount Grid
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-detail-buyx-gety.html"
+                                  <Link
+                                    href="/products/productfeatures/buyxgety"
                                     className="menu-link-text link position-relative"
                                   >
                                     Buy X Get Y
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -1450,20 +1450,20 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="view-cart.html"
+                          <Link
+                            href="/cart"
                             className="menu-link-text link text_black-2 position-relative"
                           >
                             View cart
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
-                            href="checkout.html"
+                          <Link
+                            href="/checkout"
                             className="menu-link-text link text_black-2 position-relative"
                           >
                             Check out
-                          </a>
+                          </Link>
                         </li>
                         <li className="menu-item-2">
                           <a

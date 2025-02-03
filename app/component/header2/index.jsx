@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 export default function index() {
@@ -20,7 +21,6 @@ export default function index() {
       </div>
       {/* /preload */}
 
-      
       {/* header */}
       <header id="header" className="header-default">
         <div className="px_15 lg-px_40">
@@ -283,52 +283,52 @@ export default function index() {
                               <div className="menu-heading">Shop layouts</div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="shop-default.html"
+                                  <Link
+                                    href="/shop/shoplayout/shopdefault"
                                     className="menu-link-text link"
                                   >
                                     Default
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-left-sidebar.html"
+                                  <Link
+                                    href="/shop/shoplayout/shopleftsidebar"
                                     className="menu-link-text link"
                                   >
                                     Left sidebar
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-right-sidebar.html"
+                                  <Link
+                                    href="/shop/shoplayout/shoprightsidebar"
                                     className="menu-link-text link"
                                   >
                                     Right sidebar
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-fullwidth.html"
+                                  <Link
+                                    href="/shop/shoplayout/shopfullwidth"
                                     className="menu-link-text link"
                                   >
                                     Fullwidth
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-collection-sub.html"
+                                  <Link
+                                    href="/shop/shoplayout/shopsubcollection"
                                     className="menu-link-text link"
                                   >
                                     Sub collection
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-collection-list.html"
+                                  <Link
+                                    href="/shop/shoplayout/shopcollectionlist"
                                     className="menu-link-text link"
                                   >
                                     Collections list
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -338,44 +338,44 @@ export default function index() {
                               <div className="menu-heading">Features</div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="shop-link.html"
+                                  <Link
+                                    href="/shop/features/paginationlinks"
                                     className="menu-link-text link"
                                   >
                                     Pagination links
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-loadmore.html"
+                                  <Link
+                                    href="/shop/features/paginationloadmore"
                                     className="menu-link-text link"
                                   >
                                     Pagination loadmore
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-infinite-scrolling.html"
+                                  <Link
+                                    href="/shop/features/paginationinfinitescrolling"
                                     className="menu-link-text link"
                                   >
                                     Pagination infinite scrolling
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-filter-sidebar.html"
+                                  <Link
+                                    href="/shop/features/filtersidebar"
                                     className="menu-link-text link"
                                   >
                                     Filter sidebar
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="shop-filter-hidden.html"
+                                  <Link
+                                    href="/shop/features/filterhidden"
                                     className="menu-link-text link"
                                   >
                                     Filter hidden
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -385,60 +385,60 @@ export default function index() {
                               <div className="menu-heading">Product styles</div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-style-01.html"
+                                  <Link
+                                    href="/shop/productstyles/productstyle01"
                                     className="menu-link-text link"
                                   >
                                     Product style 01
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-style-02.html"
+                                  <Link
+                                    href="/shop/productstyles/productstyle02"
                                     className="menu-link-text link"
                                   >
                                     Product style 02
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-style-03.html"
+                                  <Link
+                                    href="/shop/productstyles/productstyle03"
                                     className="menu-link-text link"
                                   >
                                     Product style 03
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-style-04.html"
+                                  <Link
+                                    href="/shop/productstyles/productstyle04"
                                     className="menu-link-text link"
                                   >
                                     Product style 04
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-style-05.html"
+                                  <Link
+                                    href="/shop/productstyles/productstyle05"
                                     className="menu-link-text link"
                                   >
                                     Product style 05
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-style-06.html"
+                                  <Link
+                                    href="/shop/productstyles/productstyle06"
                                     className="menu-link-text link"
                                   >
                                     Product style 06
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-style-07.html"
+                                  <Link
+                                    href="/shop/productstyles/productstyle07"
                                     className="menu-link-text link"
                                   >
                                     Product style 07
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -514,84 +514,84 @@ export default function index() {
                               </div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-detail.html"
+                                  <Link
+                                    href="/products/productlayouts/default"
                                     className="menu-link-text link"
                                   >
                                     Product default
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-grid-1.html"
+                                  <Link
+                                    href="/products/productlayouts/grid1"
                                     className="menu-link-text link"
                                   >
                                     Product grid 1
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-grid-2.html"
+                                  <Link
+                                    href="/products/productlayouts/grid2"
                                     className="menu-link-text link"
                                   >
                                     Product grid 2
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-stacked.html"
+                                  <Link
+                                    href="/products/productlayouts/stacked"
                                     className="menu-link-text link"
                                   >
                                     Product stacked
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-right-thumbnails.html"
+                                  <Link
+                                    href="/products/productlayouts/rightthumbnail"
                                     className="menu-link-text link"
                                   >
                                     Product right thumbnails
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-bottom-thumbnails.html"
+                                  <Link
+                                    href="/products/productlayouts/bottomthumbnail"
                                     className="menu-link-text link"
                                   >
                                     Product bottom thumbnails
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-drawer-sidebar.html"
+                                  <Link
+                                    href="/products/productlayouts/drawersidebar"
                                     className="menu-link-text link"
                                   >
                                     Product drawer sidebar
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-description-accordion.html"
+                                  <Link
+                                    href="/products/productlayouts/descriptionaccordion"
                                     className="menu-link-text link"
                                   >
                                     Product description accordion
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-description-list.html"
+                                  <Link
+                                    href="/products/productlayouts/descriptionlist"
                                     className="menu-link-text link"
                                   >
                                     Product description list
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-description-vertical.html"
+                                  <Link
+                                    href="/products/productlayouts/descriptionvertical"
                                     className="menu-link-text link"
                                   >
                                     Product description vertical
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -603,85 +603,85 @@ export default function index() {
                               </div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-inner-zoom.html"
+                                  <Link
+                                    href="/products/productdetails/innerzoom"
                                     className="menu-link-text link"
                                   >
                                     Product inner zoom
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-zoom-magnifier.html"
+                                  <Link
+                                    href="/products/productdetails/zoommagnifier"
                                     className="menu-link-text link"
                                   >
                                     Product zoom magnifier
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-no-zoom.html"
+                                  <Link
+                                    href="/products/productdetails/nozoom"
                                     className="menu-link-text link"
                                   >
                                     Product no zoom
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-photoswipe-popup.html"
+                                  <Link
+                                    href="/products/productdetails/photoswipepopup"
                                     className="menu-link-text link"
                                   >
                                     Product photoswipe popup
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-zoom-popup.html"
+                                  <Link
+                                    href="/products/productdetails/externalzoom"
                                     className="menu-link-text link"
                                   >
                                     Product external zoom and photoswipe popup
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-video.html"
+                                  <Link
+                                    href="/products/productdetails/video"
                                     className="menu-link-text link"
                                   >
                                     Product video
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-3d.html"
+                                  <Link
+                                    href="/products/productdetails/3darmodal"
                                     className="menu-link-text link"
                                   >
                                     Product 3D, AR models
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-options-customizer.html"
+                                  <Link
+                                    href="/products/productdetails/optionandcustomizer"
                                     className="menu-link-text link"
                                   >
                                     Product options &amp; customizer
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-advanced-types.html"
+                                  <Link
+                                    href="/products/productdetails/producttypes"
                                     className="menu-link-text link"
                                   >
                                     Advanced product types
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-giftcard.html"
+                                  <Link
+                                    href="/products/productdetails/recipientinformationform"
                                     className="menu-link-text link"
                                   >
                                     Recipient information form for gift card
                                     products
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -693,60 +693,60 @@ export default function index() {
                               </div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-color-swatch.html"
+                                  <Link
+                                    href="/products/productswatchs/colorswatch"
                                     className="menu-link-text link"
                                   >
                                     Product color swatch
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-rectangle.html"
+                                  <Link
+                                    href="/products/productswatchs/rectangle"
                                     className="menu-link-text link"
                                   >
                                     Product rectangle
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-rectangle-color.html"
+                                  <Link
+                                    href="/products/productswatchs/rectanglecolor"
                                     className="menu-link-text link"
                                   >
                                     Product rectangle color
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-image.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchimage"
                                     className="menu-link-text link"
                                   >
                                     Product swatch image
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-image-rounded.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchimagerounded"
                                     className="menu-link-text link"
                                   >
                                     Product swatch image rounded
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-dropdown.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchdropdown"
                                     className="menu-link-text link"
                                   >
                                     Product swatch dropdown
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-swatch-dropdown-color.html"
+                                  <Link
+                                    href="/products/productswatchs/swatchdropdowncolor"
                                     className="menu-link-text link"
                                   >
                                     Product swatch dropdown color
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -758,112 +758,112 @@ export default function index() {
                               </div>
                               <ul className="menu-list">
                                 <li>
-                                  <a
-                                    href="product-frequently-bought-together.html"
+                                  <Link
+                                    href="/products/productfeatures/frequentlyboughttogether"
                                     className="menu-link-text link"
                                   >
                                     Frequently bought together
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-frequently-bought-together-2.html"
+                                  <Link
+                                    href="/products/productfeatures/frequentlyboughttogether2"
                                     className="menu-link-text link"
                                   >
                                     Frequently bought together 2
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-upsell-features.html"
+                                  <Link
+                                    href="/products/productfeatures/upsellfeatures"
                                     className="menu-link-text link"
                                   >
                                     Product upsell features
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-pre-orders.html"
+                                  <Link
+                                    href="/products/productfeatures/preorders"
                                     className="menu-link-text link"
                                   >
                                     Product pre-orders
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-notification.html"
+                                  <Link
+                                    href="/products/productfeatures/backinstock"
                                     className="menu-link-text link"
                                   >
                                     Back in stock notification
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-pickup.html"
+                                  <Link
+                                    href="/products/productfeatures/productpickup"
                                     className="menu-link-text link"
                                   >
                                     Product pickup
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-images-grouped.html"
+                                  <Link
+                                    href="/products/productfeatures/variantimages"
                                     className="menu-link-text link"
                                   >
                                     Variant images grouped
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-complimentary.html"
+                                  <Link
+                                    href="/products/productfeatures/complimentaryproducts"
                                     className="menu-link-text link"
                                   >
                                     Complimentary products
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-quick-order-list.html"
+                                  <Link
+                                    href="/products/productfeatures/quickorderlist"
                                     className="menu-link-text link position-relative"
                                   >
                                     Quick order list
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-detail-volume-discount.html"
+                                  <Link
+                                    href="/products/productfeatures/volumediscount"
                                     className="menu-link-text link position-relative"
                                   >
                                     Volume Discount
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-detail-volume-discount-grid.html"
+                                  <Link
+                                    href="/products/productfeatures/volumediscountgrid"
                                     className="menu-link-text link position-relative"
                                   >
                                     Volume Discount Grid
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a
-                                    href="product-detail-buyx-gety.html"
+                                  <Link
+                                    href="/products/productfeatures/buyxgety"
                                     className="menu-link-text link position-relative"
                                   >
                                     Buy X Get Y
                                     <div className="demo-label">
                                       <span className="demo-new">New</span>
                                     </div>
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </div>
@@ -1426,20 +1426,20 @@ export default function index() {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="view-cart.html"
+                          <Link
+                            href="/cart"
                             className="menu-link-text link text_black-2 position-relative"
                           >
                             View cart
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
-                            href="checkout.html"
+                          <Link
+                            href="/checkout"
                             className="menu-link-text link text_black-2 position-relative"
                           >
                             Check out
-                          </a>
+                          </Link>
                         </li>
                         <li className="menu-item-2">
                           <a

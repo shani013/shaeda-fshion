@@ -1,9 +1,13 @@
 import Title from "@/app/component/title";
+import Topbar from "@/app/component/topbar";
 
+import Header2 from "@/app/component/header2";
 import React from "react";
 export default function page() {
   return (
     <div>
+      <Topbar />
+      <Header2/>
       <Title />
       <div id="wrapper">
         <section className="flat-spacing-1">

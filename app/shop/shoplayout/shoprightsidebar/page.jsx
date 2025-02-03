@@ -1,10 +1,16 @@
-import Footer from '@/app/component/footer';
+import Footer2 from '@/app/component/footer2';
+import Topbar from "@/app/component/topbar";
+
+import Header2 from '@/app/component/header2';
 import Title from "@/app/component/title";
 import React from 'react'
 
 export default function page() {
   return (
-    <>
+      <>
+          <Topbar />
+          <Header2/>
+          
       <Title/>
       <div className='mt-5 pt-5'>
       
@@ -3299,7 +3305,7 @@ export default function page() {
     </div>
     {/* End sidebar */}
       </div>
-      <Footer/>
+      <Footer2/>
     </>
     
   )

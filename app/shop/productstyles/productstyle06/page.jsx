@@ -1,9 +1,10 @@
 import React from 'react'
 import Title from "@/app/component/title";
-
+import Header2 from "@/app/component/header2";
 export default function page() {
   return (
     <div>
+      <Header2/>
   <Title/>
   <div id="wrapper">
     
