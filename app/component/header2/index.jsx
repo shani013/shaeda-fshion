@@ -1292,12 +1292,12 @@ export default function index() {
                     <div className="sub-menu submenu-default">
                       <ul className="menu-list">
                         <li>
-                          <a
-                            href="about-us.html"
+                          <Link
+                            href="/pages/about-us"
                             className="menu-link-text link text_black-2"
                           >
                             About us
-                          </a>
+                          </Link>
                         </li>
                         <li className="menu-item-2">
                           <a
